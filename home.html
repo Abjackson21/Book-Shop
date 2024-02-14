@@ -1,11 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        body {
+            background: #3E5151;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #DECBA4, #3E5151);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+        nav,
+        ul,
+        #banner,
+        footer {
+            border: none;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            margin: 20px 70px 20px 100px;
+            padding: 20px;
+        }
+
+        li {
+            margin: 20px 20px 20px 20px;
+        }
+
+        a {
+
+            text-decoration: none;
+        }
+
+        ul {
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: black;
+            font-weight: bold;
+        }
+
+        #banner {
+            display: flex;
+            margin: 20px 100px 20px 100px;
+
+        }
+
+        main {
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            margin: 20px 100px 20px 100px;
+            padding: 20px;
+        }
+
+        .book {
+            box-shadow: 1px 1px 10px;
+            display: flex;
+            padding: 20px;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            font-size: 18px;
+
+
+        }
+
+        button {
+            font-size: 17px;
+        }
+
+        .offer {
+            border: none;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            margin: 20px 100px 20px 100px;
+            padding: 20px;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        footer {
+            gap: 100px;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+    </style>
+    <title>Home Page</title>
 </head>
+
 <body>
+    <!-- #header starts-->
+    <header>
+        <!-- #nav starts-->
+        <nav>
+            <div>
+                <img width="200" height="100" src="images/logo.png" alt="site logo">
+            </div>
+            <div>
+                <ul>
+                    <li> <a href="home.html">Home</a> </li>
+                    <li> <a href="about.html">About</a></li>
+                    <li> <a href="contact.html">Contact</a> </li>
+
+                </ul>
+            </div>
+        </nav>
+        <!-- #nav ends-->
+
+        <!-- Section starts-->
+        <section id="banner">
+            <div>
+                <h1>Welcome To our Store</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, quia? Perspiciatis fugit laborum
+                    praesentium laboriosam illo fugiat doloremque ad atque maiores neque nihil temporibus labore
+                    tempore, voluptatibus commodi, alias voluptas.</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div>
+                <img width="600" height="450" src="images/banner.png" alt="img of a banner">
+            </div>
+        </section>
+        <!-- Section ends-->
+    </header>
+    <!-- #header ends-->
+
+    <!-- #main starts-->
+    <main>
+        <h1>All Our Books</h1>
+        <div>
+            <!-- #section 1 starts-->
+            <section class="book">
+                <div>
+                    <img width="200" height="300" src="images/energy.jpg" alt="img of a book">
+                </div>
+                <div>
+                    <h1>Good Energy</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, quia? Perspiciatis fugit laborum
+                        praesentium laboriosam illo fugiat doloremque ad atque maiores neque nihil temporibus labore
+                        tempore, voluptatibus commodi, alias voluptas.</p>
+                    <button>Add to cart</button>
+                </div>
+            </section>
+            <!-- #section 1 ends-->
+            <br><br>
+            <!-- #section 2 starts-->
+            <section class="book">
+                <div>
+                    <img width="200" height="300" src="images/chemistry.jpg" alt="img of a book">
+                </div>
+                <div>
+                    <h1>Lessons In Chemistry</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, quia? Perspiciatis fugit laborum
+                        praesentium laboriosam illo fugiat doloremque ad atque maiores neque nihil temporibus labore
+                        tempore, voluptatibus commodi, alias voluptas.</p>
+                    <button>Add to cart</button>
+                </div>
+            </section>
+            <!-- #section 2 ends-->
+            <br><br>
+            <!-- #section 3 starts-->
+            <section class="book">
+                <div>
+                    <img width="200" height="300" src="images/richdad.jpg" alt="img of a book">
+                </div>
+                <div>
+                    <h1>Rich Dad Poor Dad</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, quia? Perspiciatis fugit laborum
+                        praesentium laboriosam illo fugiat doloremque ad atque maiores neque nihil temporibus labore
+                        tempore, voluptatibus commodi, alias voluptas.</p>
+                    <button>Add to cart</button>
+                </div>
+            </section>
+            <!-- #section 3 ends-->
+            <br><br>
+            <!-- #section 4 starts-->
+            <section class="book">
+                <div>
+                    <img width="200" height="300" src="images/teacher.jpg" alt="img of a book">
+                </div>
+                <div>
+                    <h1>The Teacher</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, quia? Perspiciatis fugit laborum
+                        praesentium laboriosam illo fugiat doloremque ad atque maiores neque nihil temporibus labore
+                        tempore, voluptatibus commodi, alias voluptas.</p>
+                    <button>Add to cart</button>
+                </div>
+            </section>
+            <!-- #section 4 ends-->
+            <br><br>
+            <!-- #section 5  starts-->
+            <section class="offer">
+                <h1>Yearly Sale is Live Now...</h1>
+                <br>
+                <div>
+                    <img width="400" height="450" src="images/booksale.png" alt="img of a book">
+                </div>
+
+            </section>
+            <!-- #section 5 ends-->
+
+        </div>
+    </main>
+    <!-- #main ends-->
+
+    <!-- #Footer starts-->
+    <footer>
+        <div>
+            <img width="200" height="100" src="images/logo.png" alt="site logo">
+        </div>
+        <p>All Rights Researved by Book Store @2024</p>
+    </footer>
+    <!-- #Footer ends-->
     
+
 </body>
+
 </html>
